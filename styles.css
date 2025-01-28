@@ -26,6 +26,13 @@ nav.menu a {
     text-decoration: none;
 }
 
+.iframe-container{
+    width: 80%;
+    max-width: 800px;
+    height: 500px;
+    color: aquamarine;
+}
+
 iframe {
     display: block;
 }
