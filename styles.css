@@ -2,6 +2,10 @@
     background-color: darkgray;
 }
 
+.h1{
+    color: aqua;
+}
+
 nav.menu{
     margin-top: 30px;
     margin-bottom: 30px;
