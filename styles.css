@@ -25,3 +25,8 @@ nav.menu li{
 nav.menu a {
     text-decoration: none;
 }
+
+iframe {
+    display: block;
+    margin: 30px;
+}
