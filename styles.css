@@ -56,10 +56,10 @@ nav.menu a {
     color: white;
     text-decoration: none;
     text-align: center;
+    border: 10px;
     border-style: solid;
-    border-radius: 0px;
     border-color: darkgrey;
-    border: 3px;
+    border: 10px;
     transition: all 0.3s ease;
 }
 
