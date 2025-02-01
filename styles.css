@@ -56,10 +56,11 @@ nav.menu a {
     color: white;
     text-decoration: none;
     text-align: center;
+    border-style: solid;
     border-radius: 0px;
     border-color: darkgrey;
     border: 3px;
-    transition: all ease;
+    transition: all 0.3s ease;
 }
 
 .iframe-container{
