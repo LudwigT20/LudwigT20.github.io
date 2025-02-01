@@ -37,8 +37,6 @@ h3{
     text-align: center;
     box-sizing: border-box;
     transition: all 0.3s ease;
-    border-left: 0px;
-    border-right: 0px;
 }
 
 nav.menu{
