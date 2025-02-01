@@ -10,9 +10,7 @@ h3{
     color: white;
 }
 
-h4{
-    color: white;
-}
+
 
 .t-main{
     color: white;
@@ -85,18 +83,6 @@ iframe{
     display: block;
 }
 
-.sous-menu{
-    background-color: rgb(14, 13, 13);
-    color: white;
-    flex: 1;
-    box-sizing: border-box;
-    margin-top: 20px; 
-    transition: all 0.3s ease;
-    padding-top: 60px;
-    padding-left: 300;
-    height: auto;
-
-}
 
 @media (min-width: 1024px){
     .main-site {
@@ -123,10 +109,6 @@ iframe{
         margin-top: 60px; 
     }
 
-    .sous-menu{
-        padding-left: 0; 
-        margin-top: 60px;
-    }
 
     .div-menu{
         width: 100%; 
