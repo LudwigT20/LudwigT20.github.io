@@ -6,19 +6,24 @@ h1{
     color: aqua;
 }
 
-
-nav.menu{
+.div-menu{
     width: 250px;
     height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: red;
+    background-color: cadetblue;
     padding-top: 30px;
     text-decoration: none;
     padding: 10px;
     color: white;
     text-align: center;
+}
+
+nav.menu{
+    width: 250px;
+    height: 100vh;
+    bottom: 50px;
 }
 
 nav.menu ul {
