@@ -6,7 +6,8 @@ body{
 }
 
 .t-main{
-    color: violet;
+    color: rgb(159, 105, 42);
+    text-align: center;
 }
 
 .main-site{
@@ -51,7 +52,7 @@ nav.menu li{
 nav.menu a {
     display: block;
     padding: 10px;
-    background-color: blue;
+    background-color: darkcyan;
     color: white;
     text-decoration: none;
     text-align: center;
