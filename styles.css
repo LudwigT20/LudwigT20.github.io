@@ -58,6 +58,7 @@ nav.menu a {
     text-align: center;
     border-radius: 0px;
     border-color: darkgrey;
+    border-width: 3px;
 }
 
 .iframe-container{
