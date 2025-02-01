@@ -37,8 +37,8 @@ nav.menu li{
 }
 
 .iframe-container{
-    width: 80%;
-    max-width: 800px;
+    width: 50%;
+    max-width: 600px;
     height: 500px;
     color: aquamarine;
 }
