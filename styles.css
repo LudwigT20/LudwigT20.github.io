@@ -13,7 +13,7 @@ body{
 .main-site{
     flex: 1;  
     height: 100vh;
-    background-color: cadetblue;
+    background-color: darkcyan;
     box-sizing: border-box;
     padding-left: 220px;
 }
@@ -52,7 +52,7 @@ nav.menu li{
 nav.menu a {
     display: block;
     padding: 10px;
-    background-color: darkcyan;
+    background-color: cadetblue;
     color: white;
     text-decoration: none;
     text-align: center;
