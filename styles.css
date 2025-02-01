@@ -12,7 +12,7 @@ body{
 .main-site{
     flex: 1;  
     height: 100vh;
-    background-color:darkcyan;
+    background-color:red;
     box-sizing: border-box;
 }
 .div-menu{
@@ -55,27 +55,4 @@ nav.menu li{
 
 iframe {
     display: block;
-}
-
-@media (max-width: 768px) {
-   
-    body {
-        flex-direction: column;
-    }
-    .div-menu {
-        width: 100%; 
-        height: auto; 
-        position: static; 
-        padding-top: 10px; 
-    }
-
-    .main-site {
-        width: 100%; 
-        height: auto; 
-        margin-top: 20px; 
-    }
-
-    iframe {
-        height: 300px;
-    }
 }
