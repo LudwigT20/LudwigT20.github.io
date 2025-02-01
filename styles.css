@@ -3,6 +3,7 @@ body{
     display: flex;
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 
 .t-main{
@@ -12,8 +13,10 @@ body{
 .main-site{
     flex: 1;  
     height: 100vh;
-    background-color:red;
+    background-color: darkcyan;
+    padding-left: 220vh;
     box-sizing: border-box;
+    overflow: auto;
 }
 .div-menu{
     width: 200px;
@@ -27,6 +30,7 @@ body{
     color: white;
     text-align: center;
     box-sizing: border-box;
+    z-index: 10;
 }
 
 nav.menu{
