@@ -63,7 +63,7 @@ nav.menu a{
     color: white;
     text-decoration: none;
     text-align: center;
-    border: 10px solid darkgrey;
+    border: 1px solid darkgrey;
     transition: all 0.3s ease;
 }
 
