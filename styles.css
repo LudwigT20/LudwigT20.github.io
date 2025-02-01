@@ -6,6 +6,13 @@ body{
     color: bisque;
 }
 
+.main-site{
+    width: 250px;  
+    height: 100vh;
+    right: 0;
+    top:0;
+    background-color:darkcyan;
+}
 .div-menu{
     width: 250px;
     height: 100vh;
