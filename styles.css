@@ -10,8 +10,6 @@ h3{
     color: white;
 }
 
-
-
 .t-main{
     color: white;
     text-align: center;
@@ -83,12 +81,10 @@ iframe{
     display: block;
 }
 
-
 @media (min-width: 1024px){
     .main-site {
         padding-left: 220px; 
     }
-
 
     .div-menu{
         position: fixed; 
@@ -106,9 +102,9 @@ iframe{
     }
 
     .main-site{
+        padding-left: 0; 
         margin-top: 60px; 
     }
-
 
     .div-menu{
         width: 100%; 
