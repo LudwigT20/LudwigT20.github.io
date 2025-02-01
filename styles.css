@@ -1,8 +1,9 @@
-body{
+body {
     background-color: rgb(51, 53, 53);
     display: flex;
     margin: 0;
     padding: 0;
+    flex-direction: column; 
 }
 
 h3{
@@ -15,16 +16,18 @@ h3{
 }
 
 .main-site{
-    flex: 1;  
-    height: 100vh;
+    flex: 1;
     background-color: rgb(51, 53, 53);
     box-sizing: border-box;
-    padding-left: 220px;
+    padding-left: 220px; 
+    margin-top: 20px; 
+    transition: all 0.3s ease;
 }
+
 .div-menu{
-    width: 200px;
-    height: 100vh;
-    position: fixed;
+    width: 200px; 
+    height: 100vh; 
+    position: fixed; 
     top: 0;
     left: 0;
     background-color: rgb(31, 34, 34);
@@ -33,6 +36,7 @@ h3{
     color: white;
     text-align: center;
     box-sizing: border-box;
+    transition: all 0.3s ease;
 }
 
 nav.menu{
@@ -41,7 +45,7 @@ nav.menu{
     margin: 0;
 }
 
-nav.menu ul {
+nav.menu ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -50,29 +54,74 @@ nav.menu ul {
 nav.menu li{
     display: block;
     margin-bottom: 15px;
-    color: rgb(31, 34, 34);
 }
 
-nav.menu a {
+nav.menu a{
     display: block;
     padding: 10px;
     background-color: rgb(31, 34, 34);
     color: white;
     text-decoration: none;
     text-align: center;
-    border: 10px;
-    border-style: solid;
-    border-color: darkgrey;
-    border: 10px;
+    border: 10px solid darkgrey;
     transition: all 0.3s ease;
 }
 
 .iframe-container{
-    width: 90%;
-    height: 400px;
+    width: 100%; 
+    height: 100vh; 
     color: white;
 }
 
-iframe {
+iframe{
+    width: 100%;
+    height: 100%;
     display: block;
+}
+
+@media (min-width: 1024px){
+    .main-site {
+        padding-left: 220px; 
+    }
+
+    .div-menu{
+        position: fixed; 
+        height: 100vh; 
+    }
+
+    .iframe-container{
+        height: 100vh; 
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        flex-direction: column; 
+    }
+
+    .main-site{
+        padding-left: 0; 
+        margin-top: 60px; 
+    }
+
+    .div-menu{
+        width: 100%; 
+        height: auto; 
+        position: relative; 
+        padding: 10px 0;
+    }
+
+    nav.menu ul{
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    nav.menu li{
+        margin-bottom: 10px; 
+    }
+
+    .iframe-container{
+        height: 100vh; 
+    }
 }
