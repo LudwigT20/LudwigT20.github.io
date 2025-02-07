@@ -73,7 +73,7 @@ nav.menu a{
 
 .iframe-container{
     width: 100vh; 
-    height: 100vh; 
+    height: 600vh; 
     color: white;
     overflow: auto;
 }
@@ -102,7 +102,7 @@ iframe{
     }
 
     .iframe-container{
-        height: 100vh; 
+        height:     600vh; 
     }
 }
 
