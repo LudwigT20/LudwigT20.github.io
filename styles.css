@@ -26,11 +26,10 @@ h3{
 }
 
 .div-menu{
-    width: 200px; 
-    height: 100vh; 
+    width: 100vh; 
+    height: 200px; 
     position: fixed; 
     top: 0;
-    left: 0;
     background-color: rgb(31, 34, 34);
     padding-top: 30px;
     text-decoration: none;
@@ -47,15 +46,17 @@ nav.menu{
 }
 
 nav.menu ul{
-    list-style-type: none;
+    display: flex;
+    flex-direction: row; 
     padding: 0;
     margin: 0;
+    justify-content: center; 
 }
 
 nav.menu li{
-    display: block;
-    margin-bottom: 15px;
+    margin-right: 15px; 
 }
+
 
 nav.menu a{
     display: block;
