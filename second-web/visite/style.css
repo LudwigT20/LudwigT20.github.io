@@ -1,3 +1,11 @@
+#sceneListToggle {
+  display: none !important;
+}
+
+#sceneList {
+  margin-left: -220px !important;
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
